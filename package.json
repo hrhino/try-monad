@@ -1,0 +1,10 @@
+{
+  "name": "try-monad",
+  "version": "0.1.0",
+  "description": "A very, very small monadic wrapper around Try.",
+  "main": "index.js",
+  "repository": "https://github.com/hrhino/try-monad",
+  "author": "Harrison Houghton <hhoughton@learningobjects.com>",
+  "license": "WTFPL",
+  "private": false
+}
