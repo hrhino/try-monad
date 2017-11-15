@@ -1,6 +1,6 @@
 {
   "name": "try-monad",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A very, very small monadish wrapper around Try.",
   "main": "target/index.js",
   "repository": "https://github.com/hrhino/try-monad",

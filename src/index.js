@@ -106,4 +106,4 @@ Try.success = (value) => Try(() => value);
 /** Wrap an eagerly-evaluated error in a `Try`. */
 Try.fail = (err) => Try(() => { throw err; });
 
-export default Try;
+module.exports = Try;
