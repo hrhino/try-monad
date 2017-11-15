@@ -1,10 +1,20 @@
 {
   "name": "try-monad",
   "version": "0.1.0",
-  "description": "A very, very small monadic wrapper around Try.",
-  "main": "index.js",
+  "description": "A very, very small monadish wrapper around Try.",
+  "main": "target/index.js",
   "repository": "https://github.com/hrhino/try-monad",
   "author": "Harrison Houghton <hhoughton@learningobjects.com>",
   "license": "WTFPL",
-  "private": false
+  "private": false,
+  "scripts": {
+    "build": "babel src --out-dir target",
+    "test": "mocha --require babel-core/register"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
 }
