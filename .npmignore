@@ -3,4 +3,4 @@ yarn.lock
 *.log
 .gitignore
 .gitattributes
-spec/
+test/
